@@ -6,7 +6,7 @@
 
 **Kelas** : PBO A
 
-# **Kelas EntryPoint**
+## **Kelas EntryPoint**
 
 ```java
 public class EntryPoint {
@@ -19,7 +19,7 @@ public class EntryPoint {
 
 Kelas utama yang menjadi titik masuk (entry point) untuk menjalankan permainan.
 
-# **Kelas Adventure**
+## **Kelas Adventure**
 
 ```java
 public class Adventure {
@@ -199,7 +199,7 @@ Mengatur navigasi pemain ke lokasi baru berdasarkan sub-perintah (arah) dari obj
 
 Menampilkan semua arah yang dapat diakses dari tempat saat ini. Metode ini memeriksa apakah arah north, south, east, atau west tersedia dan menampilkannya kepada pemain.
 
-# **Kelas InputProcessor**
+## **Kelas InputProcessor**
 
 ```java
 import java.util.Scanner;
@@ -259,7 +259,7 @@ Konstruktor yang menginisialisasi objek ActionList dan Scanner.
 
 Membaca input pengguna menggunakan scanner dan memecahnya menjadi perintah utama (mainCommand) dan perintah sekunder (subCommand). Jika perintah utama valid, metode ini mengembalikan objek Action yang sesuai. Jika tidak, perintah utama disetel ke null untuk menandakan bahwa perintah tidak valid.
 
-# **Kelas Action**
+## **Kelas Action**
 
 ```java
 public class Action {
@@ -321,7 +321,7 @@ Mengecek apakah mainCommand tidak didefinisikan (bernilai null), yang menandakan
 
 Mengecek apakah subCommand ada (tidak null), yang menandakan bahwa pengguna telah memberikan perintah sekunder.
 
-# **Kelas ActionList**
+## **Kelas ActionList**
 
 ```java
 public class ActionList {
@@ -359,7 +359,7 @@ Konstruktor kosong yang menginisialisasi validActions.
 
 Mengecek apakah perintah yang diberikan (action) terdapat dalam validActions. Mengembalikan true jika perintah valid, false jika tidak.
 
-# **Kelas Place**
+## **Kelas Place**
 
 ```java
 public class Place {
